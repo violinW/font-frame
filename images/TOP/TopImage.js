@@ -1,0 +1,20 @@
+export default {
+    // Logo: require('./logo.png'),
+    Logo: require('./xianShenglogo.png'),
+    Home: require('./home.png'),
+    HomeActive: require('./home_active.png'),
+    Member: require('./member.png'),
+    MemberActive: require('./member_active.png'),
+    Tag:require('./tag.png'),
+    TagActive:require('./tag_active.png'),
+    Marketing: require('./marketing.png'),
+    MarketingActive: require('./marketing_active.png'),
+    OneToN: require('./oneton.png'),
+    OneToNActive: require('./oneton_active.png'),
+    Analysis: require('./analysis.png'),
+    AnalysisActive: require('./analysis_active.png'),
+    Setting: require('./setting.png'),
+    SettingActive: require('./setting_active.png'),
+    Kpi: require('./kpi.png'),
+    KpiActive: require('./kpi_active.png')
+};

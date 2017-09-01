@@ -1,0 +1,32 @@
+.LOADING {
+    height: 0;
+    .loading {
+        position: absolute;
+        top: 40%;
+        left: calc(50% - 45px);
+        width: 90px;
+        height: 90px;
+        border-radius: 14px;
+        background-color: #1F2F37;
+        opacity: 0.8;
+        z-index: 1000;
+
+        .wrapper {
+            position: absolute;
+            display: inline-block;
+            top: 18px;
+            left: 24px;
+            font-size: 14px;
+            color: white;
+        }
+
+        .loading-text {
+            margin-top: 4px;
+            display: block;
+        }
+
+        .loading-icon {
+            font-size: 25px;
+        }
+    }
+}
